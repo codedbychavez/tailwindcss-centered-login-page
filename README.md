@@ -1,1 +1,1 @@
-# tailwind-css-centered-login-page
+# tailwindcss-centered-login-page
