@@ -1,0 +1,39 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS centered Login</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <form id="form_login" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-11/12 sm:w-6/12 md:w-5/12 lg-w-4/12 xl:w-3/12">
+        <div class="flex justify-center text-2xl text-blue-600 text-opacity-50">Customer Login</div>
+        <div class="mb-4">
+            <label id="form-login" class="block text-gray-700 text-sm font-bold mb-2" for="username">
+              Username
+            </label>
+            <input class="shadow appearance-none border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username">
+          </div>
+          <div class="mb-6">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+              Password
+            </label>
+            <input class="shadow appearance-none border w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="******************">
+          </div>
+
+          <div class="flex items-center justify-between mb-3">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline" type="button">
+              Sign In
+            </button>
+            <a class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="#">
+                Forgot Password?
+              </a>
+          </div>
+          <p class="text-center text-gray-500 text-xs">
+            &copy;2020 Acme Corp. All rights reserved.
+          </p>
+    </form>
+</body>
+</html>
